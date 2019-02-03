@@ -1,3 +1,10 @@
+//////////////////////////////////
+// Blackbox's shot tracking     //
+// v1   It does things          //
+//////////////////////////////////
+
+// Call via init.sqf
+
 if (isDedicated) exitWith {}; // Will not run on server, client-side loading
 
 player addEventHandler ["FiredNear", {
